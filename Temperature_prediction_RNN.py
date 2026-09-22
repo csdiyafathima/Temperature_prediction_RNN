@@ -2,7 +2,7 @@ import streamlit as st
 import numpy as np
 import tensorflow as tf
 
-model = tf.keras.models.load_model("machine_temperature_rnn.keras")
+model = tf.keras.models.load_model("temperature_predition_rnn.keras")
 
 st.set_page_config(
     page_title="Machine Temperature Predictor",
